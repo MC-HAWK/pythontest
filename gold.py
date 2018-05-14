@@ -1,4 +1,4 @@
-class gold(items):
+class Gold(Items):
     def __init__(self, amt):
         self.amt = amt
         super().__init__(name="Gold",
