@@ -1,1 +1,2 @@
-import items, enemies
+import enemies
+import items
