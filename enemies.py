@@ -10,4 +10,19 @@ class Enemy:
 
 class Spider(Enemy):
     def __init__(self):
-        super().__init__(name="Spider", hp=5, damage=1)
+        super().__init__(name="Spider", hp=3, damage=1)
+
+
+class GiantPython(Enemy):
+    def __init__(self):
+        super().__init__(name="Giant Python", hp=12, damage=5)
+
+
+class Skeleton(Enemy):
+    def __init__(self):
+        super().__init__(name="Skeleton", hp=5, damage=3)
+
+
+class BronzeDragon(Enemy):
+    def __init__(self):
+        super().__init__(name="Bronze Dragon", hp=40, damage=10)
