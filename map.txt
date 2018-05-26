@@ -1,0 +1,2 @@
+EnemyRoom	LootRoom	EnemyRoom	LootRoom
+EnemyRoom	LootRoom	LootRoom	EnemyRoom	LootRoom	
