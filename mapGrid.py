@@ -14,10 +14,6 @@ def intro_text(self):
     raise NotImplementedError()
 
 
-def modify_player(self, player):
-    raise NotImplementedError()
-
-
 class StartingRoom(MapGrid):
     def intro_text(self):
         return """
@@ -81,3 +77,17 @@ def available_actions(self):
     moves.append(actions.ViewInventory())
 
     return moves
+
+
+class LeaveCaveRoom(MapGrid):
+    def intro_text(self):
+        return """
+        You see a bright light in the distance...
+        ... it grows as you get closer! It's sunlight!
+
+
+        Victory is yours!
+        """
+
+    def modify_player(self, player):
+        player.victory = True

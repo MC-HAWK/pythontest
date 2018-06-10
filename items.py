@@ -76,6 +76,6 @@ class Rock(Weapons):
 class FlamingoMallet(Weapons):
     def __init__(self):
         super().__init__(name="Flamingo Mallet",
-                         description="You wouldn't want to run afowl of this hammer.",
+                         description="You wouldn't want to run a fowl of this hammer.",
                          value=50,
                          damage=17)
